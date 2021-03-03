@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Func ({value1, value2, value3, onErase, couple, onRandom, clicks, sum}){  
+function Func ({value1, value2, value3, onErase, onRandom, clicks, sum}){  
 return (
     <>
         <div className="wrap_counter">

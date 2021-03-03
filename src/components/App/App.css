@@ -40,26 +40,6 @@
   background-color: #fa3e5d;
   border: 3.5px solid #bb1c45;
 }
-/*.wrap_anime{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  width: 500px;
-  height: 25px;
-  margin: 0;
-  padding: 0
-  
-}
-.anime{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  height: 25px;
-  width: 100px;
-  background-color: solid#bb1c45;
-  margin: 0;
-  padding: 0;
-}*/
 .wrap_automat{
   display: flex;
   justify-content: center
@@ -157,6 +137,8 @@
   height: 10vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(8, 8, 8, 0.7);
   }
   .lincs{
@@ -165,5 +147,9 @@
   }
   .color{
     color:antiquewhite
+  }
+  .githab{
+     font-size: 30px;
+   
   }
   

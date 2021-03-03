@@ -108,6 +108,7 @@ class App extends React.Component{
     }
 
     const {value1, value2, value3, sum, clicks, couple} = this.state
+
     return (
       <div className="main" style={{background: `url(${Background}) center center/cover no-repeat`}}>
         <div className="size">
@@ -133,12 +134,9 @@ class App extends React.Component{
           <div className="results"></div>
         </div>
         </div>
-        <footer className = "contacts">
-        <div className ="logo">
-          <img src={'./img/logo.jpg'}/>
-        </div>
+        <footer className = " colomn contacts">
         <div className = "linc">
-          <a href="https://github.com/Pavel-Filonchyk"><i class="fab fa-github"></i></a>
+          <a className="githab" href="https://github.com/Pavel-Filonchyk"><i class="fab fa-github"></i></a>
         </div>
       </footer>
       
