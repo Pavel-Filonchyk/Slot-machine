@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App/App';
+import Result from './components/Result/Result';
 
-
-// const volum = new Func()
 
 ReactDOM.render(
-    <App />
-  ,
+    <Result />,
   document.getElementById('root')
 );
 

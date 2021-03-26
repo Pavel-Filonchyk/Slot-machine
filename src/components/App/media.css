@@ -1,0 +1,16 @@
+@media(max-width: 515px){
+    .automat {
+        height: 65px;
+        width: 85px;
+    }
+    .wrap_automat{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .circle{
+        margin: 30px;
+    }
+    .wrap_results{
+        margin: 30px;
+    }
+}

@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Func ({value1, value2, value3, onErase, onRandom, clicks, sum}){  
+function Func ({value1, value2, value3, onErase, onRandom, clicks, sum, result}){  
+
 return (
     <>
         <div className="wrap_counter">
              <div className="counter">
-                 <h1>{sum}</h1>
+                 <h2>{sum}</h2>
              </div>
         </div>
         <div className="wrap_click_value">
@@ -22,22 +23,12 @@ return (
         <div className="wrap_circle">
             <div 
                 className="circle"
-                onClick={onRandom}
+                onClick={() => onRandom()}
             >
-                <h4>Start</h4>
+                <h3>Start</h3>
             </div>
-        </div>
-        <div className="wrap_erase">
-            <div className="erase"
-                 onClick={onErase}
-            > 
-            <p>Clean</p>
-            </div>
-
         </div>
      </>
-    
  )
 }
-
 export default Func
